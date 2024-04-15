@@ -1,0 +1,20 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* pseudo classe */
+a:hover{
+  text-decoration: underline;
+  color: darkblue;
+  background-color: yellowgreen;
+}
+
+a:visited{
+  color: purple;
+}

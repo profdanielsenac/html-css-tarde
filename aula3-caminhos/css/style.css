@@ -1,0 +1,14 @@
+/* Folha de estilo CSS */
+h2 a { 
+  color: darkorchid;
+  text-decoration: none;
+}
+
+a{
+  color: chartreuse;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

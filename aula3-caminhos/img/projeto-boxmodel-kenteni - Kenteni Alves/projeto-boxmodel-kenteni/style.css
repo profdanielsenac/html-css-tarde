@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  color: white;
+}
+p {
+  color: #b2b2b2;
+}
+
+.preco {
+  color: #febe01;
+}
+
+.botao {
+  display: block;
+  text-decoration: none;
+  background: #febe01;
+  width: 127px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 4px;
+  text-align: center;
+  color: #332200;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111;
+  width: 400px;
+  padding: 20px;
+  border: 1px;
+  border-radius: 4px;
+  margin-top: 20px;
+}

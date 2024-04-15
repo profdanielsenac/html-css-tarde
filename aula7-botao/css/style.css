@@ -1,0 +1,19 @@
+a {
+  background: #84e;
+  color: #fff;
+  padding: 2px;
+}
+.botao {
+  display: block; /*Cria um elemento de bloco*/
+  background: #ffd700; /*cor de fundo*/ 
+  margin-top: 10px; /*margem do topo*/
+  color: #111; /*Cor do conteúdo*/
+  width: 80px; /*largura*/
+  padding: 5px; /*preenchimento interno*/
+  border: 1px solid #333; /*borda*/
+  border-radius: 2px; /*arrendodamento dos cantos da borda*/
+  text-decoration: none; /*remove ou adiciona linha no texto*/
+  text-align: center; /*alinhamento do texto*/
+  font-size: 14px; /*tamanho da fonte de texto*/
+  font-family: Arial, Helvetica, sans-serif; /*família ou tipo de fonte*/
+}

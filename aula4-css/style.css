@@ -1,0 +1,23 @@
+.link {
+  color: black;
+  font-style: italic;
+  background-color: yellow;
+}
+
+#bicicletas {
+  color: green;
+}
+#jumento {
+  color: yellow;
+}
+#mula {
+  color: blue;
+}
+p {
+  font-size: 16px;
+  font-family: 'Trebuchet MS';
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}

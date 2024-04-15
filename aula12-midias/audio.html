@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inserindo áudio</title>
+</head>
+<body>
+  <h1>Inserindo áudio local</h1>
+  <p>Exemplo de áudio inserido no site a partir de uma pasta local.</p>
+  <p>Música Dark Future</p>
+  <audio id="music" preload="metadata" loop >
+    <source src="/audios/dark-future.mp3" type="audio/mpeg">
+    <source src="/audios/dark-future.ogg" type="audio/ogg">
+    <source src="/audios/dark-future.wav" type="audio/wav">
+
+  </audio>
+  <p>Click the buttons to play or pause the music.</p>
+
+ 
+
+<button onclick="play()" type="button">Play </button>
+
+<button onclick="pause()" type="button">Pause</button>
+
+ 
+
+<script>
+
+var myMusic= document.getElementById("music");
+
+function play() {
+
+myMusic.play();
+
+}
+
+ 
+
+function pause() {
+
+myMusic.pause();
+
+}
+
+</script>
+  <p>Outro exemplo de áudio</p>
+  <audio src="audios/titanium.mp3" controls></audio>
+</body>
+</html>
