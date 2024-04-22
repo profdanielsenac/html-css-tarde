@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dica</title>
+
+  <style>
+    div.quadrado{
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      border-radius: 12px;
+    }
+    div.caixas{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    figcaption{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><em>Background</em></h1>
+  </header>
+  <main>
+    <article>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime earum amet facere.</p>
+      <section>
+        <h2>Cores no plano de fundo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime earum amet facere.</p>
+        <div class="caixas">
+          <figure>
+            <div class="quadrado" id="q1"></div>
+            <figcaption>Cor sólida</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q2"></div>
+            <figcaption>Gradiente</figcaption>
+          </figure>
+          <figure>
+            <div class="quadrado" id="q3"></div>
+            <figcaption>Imagem</figcaption>
+          </figure>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
