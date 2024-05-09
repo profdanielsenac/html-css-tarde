@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+
+<body style="font-family: Calibri;">
+  <form style="width: 390px;" action="" method="GET">
+    <fieldset>
+      <legend>Novos itens de Formulário</legend>
+      <p>
+        <strong><code>&lt;select&gt; &lt;option&gt; </code></strong><br>
+        <label>Você tem mais de 18 anos?</label>
+        <select name="maioridade">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option>
+        </select>
+      </p>
+      <p>
+        <strong><code>&lt;select&gt; &lt;optgroup&gt;  &lt;option&gt; </code></strong><br>
+        <label for="iduf">Selecione o Estado:</label>
+        <select name="uf" id="iduf">
+          <optgroup label="Centro-Oeste">
+            <option value="MT">Mato Grosso</option>
+            <option value="MT">Mato Grosso do Sul</option>
+            <option value="GO">Goiás</option>
+          </optgroup>
+
+          <optgroup label="Norte">
+            <option value="AM">Amazonas</option>
+          </optgroup>
+
+          <optgroup label="Nordeste">
+            <option value="CE">Ceará</option>
+            <option value="PA">Paraíba</option>
+            <option value="PE">Pernambuco</option>
+          </optgroup>
+
+          <optgroup label="Sudeste">
+            <option value="SP">São Paulo</option>]
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+          </optgroup>
+
+          <optgroup label="Sul">
+            <option value="RS">Rio Grande do Sul</option>
+          </optgroup>
+
+        </select>
+      </p>
+
+      <p>
+        <strong><code>&lt;textarea&gt; </code></strong><br>
+
+        <label for="iddesc">Descreva as características do estado selecionado:</label>
+        <br>
+        <textarea name="desc" id="iddesc" cols="30" rows="5"></textarea>
+      </p>
+
+      <p>
+        <strong><code>&lt;input list=""&gt; &lt;datalist&gt; </code></strong><br>
+        <label for="idprof">Profissão:</label>
+        <input type="text" name="prof" id="idprof" list="idlista">
+        <datalist id="idlista">
+          <option value="Administrador"></option>
+          <option value="Contabilista"></option>
+          <option value="Gestor de RH"></option>
+          <option value="Animador"></option>
+        </datalist>
+      </p>
+
+      <input type="submit" value="Enviar">
+    </fieldset>
+  </form>
+</body>
+
+</html>
